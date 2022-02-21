@@ -12,7 +12,7 @@ node {
 
     stage('Damn it') {
         echo 'damn it'
-        sh "toolbelt/sfdx"
+        bat "toolbelt/sfdx"
         echo '$rc'
     }
 
