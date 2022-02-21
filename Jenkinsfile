@@ -6,6 +6,7 @@ pipeline{
 			steps{
 				//sh '' //steps
 				echo 'building the application'
+				echo 'wohooo... success'
 			}
 		}
 		
