@@ -6,7 +6,7 @@ pipeline{
 				//sh '' //steps
 				echo 'building the application'
 				echo 'wohooo... success'
-				sh "C:\Program Files\Salesforce CLI\bin\sfdx.cmd"
+				sh "C:\\Program Files\\Salesforce CLI\\bin\\sfdx.cmd"
 				//rc = command "${toolbelt}/sfdx"
 			}
 		}
