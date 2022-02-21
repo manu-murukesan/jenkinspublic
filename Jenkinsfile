@@ -8,7 +8,7 @@ pipeline{
 				echo 'building the application'
 				echo 'wohooo... success'
 				def toolbelt = tool 'toolbelt'
-				rc = command "${toolbelt}/sfdx"
+				//rc = command "${toolbelt}/sfdx"
 			}
 		}
 		
