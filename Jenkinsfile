@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	tools {
 		// Install the Maven version configured as "M3" and add it to the path.
-		sfdx "com.cloudbees.jenkins.plugins.customtools.CustomTool"
+		sfdx "sfdx"
 	    }
 	stages {
 		stage("build"){
