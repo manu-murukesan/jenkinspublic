@@ -7,7 +7,7 @@ pipeline{
 				//sh '' //steps
 				echo 'building the application'
 				echo 'wohooo... success'
-				sh "sfdx"
+				//sh "sfdx"
 				//rc = command "${toolbelt}/sfdx"
 			}
 		}
